@@ -174,7 +174,7 @@ header a.icon-header{
 .content2 .intruct2-body .a1 .text{
     margin: 20px;
     width: auto;
-    height: 9.4cm;
+    height: 9.7cm;
     text-align: center;
     font-size: 100%;
     border-radius: 10px;
@@ -185,7 +185,7 @@ header a.icon-header{
 .content2 .intruct2-body .a2 .text{
     margin: 20px;
     width: auto;
-    height: 9.4cm;
+    height: 9.7cm;
     text-align: center;
     font-size: 100%;
     border-radius: 10px;
@@ -196,7 +196,7 @@ header a.icon-header{
 .content2 .intruct2-body .a3 .text{
     margin: 20px;
     width: auto;
-    height: 9.4cm;
+    height: 9.7cm;
     text-align: center;
     font-size: 100%;
     border-radius: 10px;
@@ -309,10 +309,6 @@ footer p{
         display: grid;
     }
 
-    .content2 .intruct2-body{
-        display: grid;
-    }
-
     #productlist{
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -347,8 +343,5 @@ footer p{
     }
 }
 
-@media screen and (max-width:1100px) {
-    .content2 .intruct2-body .a2 .text p{
-        display: grid;
-    }
+@media screen and (max-width:1000px) {
 }
