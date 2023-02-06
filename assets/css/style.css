@@ -174,7 +174,7 @@ header a.icon-header{
 .content2 .intruct2-body .a1 .text{
     margin: 20px;
     width: auto;
-    height: 9.7cm;
+    height: 11cm;
     text-align: center;
     font-size: 100%;
     border-radius: 10px;
@@ -185,7 +185,7 @@ header a.icon-header{
 .content2 .intruct2-body .a2 .text{
     margin: 20px;
     width: auto;
-    height: 9.7cm;
+    height: 11cm;
     text-align: center;
     font-size: 100%;
     border-radius: 10px;
@@ -196,7 +196,7 @@ header a.icon-header{
 .content2 .intruct2-body .a3 .text{
     margin: 20px;
     width: auto;
-    height: 9.7cm;
+    height: 11cm;
     text-align: center;
     font-size: 100%;
     border-radius: 10px;
@@ -344,4 +344,19 @@ footer p{
 }
 
 @media screen and (max-width:1000px) {
+    .content2 .intruct2-body{
+        display: grid;
+    }
+
+    .content2 .intruct2-body .a1 .text{
+        height: 9.2cm;
+    }
+
+    .content2 .intruct2-body .a2 .text{
+        height: 9.2cm;
+    }
+
+    .content2 .intruct2-body .a3 .text{
+        height: 9.2cm;
+    }
 }
