@@ -76,7 +76,7 @@ var keranja = {
           item = document.createElement("div");
           item.className = "c-total";
           item.id = "c-total";
-          item.innerHTML ="TOTAL: RP " + total;
+          item.innerHTML ="TOTAL : RP " + total;
           keranja.hItems.appendChild(item);
         }
       },
@@ -113,6 +113,10 @@ var keranja = {
         keranja.items = {};
         localStorage.removeItem("keranja");
         keranja.list();
+      },
+
+      popup : () => {
+        
       }
 }
 
