@@ -1,0 +1,1 @@
+Mohon maaf ada kekurangan dari database

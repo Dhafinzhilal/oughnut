@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Oughnut - Home</title>
+    <script src="assets/js/productreview.js"></script>
+    <script src="assets/js/products.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="icon-header"><img src="icon2.png" width="auto" height="24px"></a>
+        <a href="index.html" class="active">Home</a>
+        <a href="#product">Product</a> 
+        <a href="order.html">Order</a>       
+    </header>
+    <div class="content">   
+        <div class="intruct">
+            <div class="intruct-body">
+                <img src="image/doughnuts.jpg" alt="Doughnuts">
+            <div class="text-content">
+                <h1>Our Donut Online Store</h1><p>This is website test. Hello! Welcome to our store. We have a lot of donuts, come to order by click this button below.</p>
+                <button onclick="location.href='order.html';">Order now!</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="content2">
+        <div class="intruct2-body">
+            <div class="a1">
+                <img src="image/itsdonutstime.jpg" alt="itsdonutstime:)">
+                <div class="text">
+                    <h1 style="padding-top: 30px;">About Donut</h1>
+                    <p>A doughnut or donut is a type of food made from leavened fried dough. It is popular in many countries and is prepared in various forms as a sweet snack that can be homemade or purchased in here.</p>
+                </div>
+            </div>
+            <div class="a2">
+                <img src="image/oreoplus.png" alt="itsdonutstime:)">
+                <div class="text">
+                    <h1 style="padding-top: 30px;">Various flavor</h1>
+                    <p>It has various flavor that you must try. Like Chocolate, Strawberry, Vanilla, Matcha, Oreo, Cream Coffee, etc. You can choose what flavor you want in here.</p>
+                </div>
+            </div>
+            <div class="a3">
+                <img src="image/mbasedangmakandonut.jpg" alt="itsdonutstime:)">
+                <div class="text">
+                    <h1 style="padding-top: 30px;">Give you energy</h1>
+                    <p>The sugar in donuts help with concentration and memory. A doughnut or donut might be good after you worked out, or something like that, where you need to replenish your energy sources.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product" id="product">
+        <h1>Product</h1>
+        <div id="productlist"></div>
+            <template id="telemp">
+                <div class="p-item">
+                    <img class="p-image">
+                    <div class="p-name"></div>
+                    <div class="p-price"></div>
+                </div>
+            </template>
+    </div>
+    <footer>
+        <p>Oughnut Co. 2022</p>
+    </footer>
+</body>
+</html>

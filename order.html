@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="assets/css/stylekeranja.css">
+    <title>Oughnut - Home</title>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/pesan.js"></script>
+    <script src="assets/js/products.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="icon-header"><img src="icon2.png" width="auto" height="24px"></a>
+        <a href="index.html">Home</a>
+        <a href="index.html#product">Product</a> 
+        <a href="order.html" class="active">Order</a>       
+    </header>
+    <div id="keranja-wrap">
+        <div id="productlist"></div>
+        <div id="keranja-items"></div>
+    </div>
+    <template id="telemp">
+        <div class="p-item">
+            <img class="p-image">
+            <div class="p-name"></div>
+            <div class="p-price"></div>
+            <button class="p-add">Add</div>
+    </template>
+    <template id="template-keranja">
+        <div class="c-item">
+            <div class="c-name"></div>
+            <button class="c-del keranja">X</button>
+            <input class="c-qty" type="number" min="0"/>
+        </div>
+    </template>
+    <footer>
+        <button class="c-empty keranja" onclick="keranja.nuke()">Empty</button>
+        <button class="c-checkout keranja" onclick="keranja.checkout()">Checkout</button>
+    </footer>
+</body>
+</html>
