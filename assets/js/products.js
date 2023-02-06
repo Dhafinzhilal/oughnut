@@ -46,7 +46,7 @@ var products = {
     },
     10:{
         img : "placeholder.png",
-        name :"kucing peduli hehe",
-        price : 69420
+        name :"Donat yee",
+        price : 99999
     }
 };
