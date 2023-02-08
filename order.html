@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/stylekeranja.css">
     <title>Oughnut - Home</title>
     <script src="assets/js/script.js"></script>
-    <script src="assets/js/pesan.js"></script>
+    <script src="assets/js/popup.js"></script>
     <script src="assets/js/products.js"></script>
 </head>
 <body>
@@ -20,8 +20,8 @@
     <div id="keranja-wrap">
         <div id="productlist"></div>
         <div id="keranja-items"></div>
+        <button id="close" onclick="closePopup()">Ok</button>
     </div>
-    
     <template id="telemp">
         <div class="p-item">
             <img class="p-image">
@@ -39,7 +39,7 @@
     <footer>
         <button class="c-empty keranja" onclick="keranja.nuke()">Empty</button>
         <button class="c-checkout keranja" onclick="keranja.checkout()">Checkout</button>
-        <button class="c-popup" onclick="keranja.popup()"><img src="image/cart.png"></button>
+        <button class="c-popup" onclick="openPopup()"><img src="image/cart.png"></button>
     </footer>
 </body>
 </html>

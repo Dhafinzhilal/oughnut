@@ -113,10 +113,6 @@ var keranja = {
         keranja.items = {};
         localStorage.removeItem("keranja");
         keranja.list();
-      },
-
-      popup : () => {
-        
       }
 }
 
