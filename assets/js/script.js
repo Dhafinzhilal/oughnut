@@ -109,10 +109,10 @@ var keranja = {
       },
 
       checkout : () => {
-        alert("There is no database for order. We're sorry");
-        keranja.items = {};
-        localStorage.removeItem("keranja");
-        keranja.list();
+        if (keranja.list == (null)){
+          alert("There's no products in cart!")
+        }
+        
       }
 }
 
