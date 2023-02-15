@@ -109,10 +109,7 @@ var keranja = {
       },
 
       checkout : () => {
-        if (keranja.list == (null)){
-          alert("There's no products in cart!")
-        }
-        
+        console.log(JSON.stringify(keranja.items))
       }
 }
 
