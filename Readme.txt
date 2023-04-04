@@ -1,1 +1,1 @@
-Mohon maaf ada kekurangan dari database
+Belum ada database
