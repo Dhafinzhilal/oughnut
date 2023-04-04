@@ -1,0 +1,135 @@
+body { 
+    max-width: 1920px;
+    min-width: 480px;
+    background-color: beige;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}                       
+
+header{
+    position: relative ;
+    background-color: rgb(255, 153, 0);
+    overflow: hidden;
+    padding: 20px 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header a{
+    float: left;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+header a:hover{
+    background-color:rgb(173, 100, 39);
+    transition: 0.3s;
+}
+
+header a.active{
+    background-color: rgb(101, 72, 49);
+    font-weight: bold;
+}
+
+header a.icon-header{
+    float: right;
+    background-color: rgb(119, 47, 47) ;
+}
+
+#keranja-wrap {
+    display: relative;
+}
+#keranja-items {
+    background-color: rgb(101, 72, 49);
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 10px;
+    border-radius: 10px;
+    height: 20cm;
+    width: 95%;
+    overflow: auto;
+}
+
+.c-item {
+    border-radius: 5px;
+    width: 98%;
+    height: 4cm;
+    background-color: rgb(171, 114, 67);
+}
+.c-name{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 1.05em;
+    font-weight: 700;
+}
+.c-name{width: 100%;}
+.c-total{margin-top: 10px; }
+.c-qty {
+    margin-left:10px;
+    width: auto ; 
+    height: 39px;
+}
+
+.c-qty{
+    text-align: center;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.c-subtotal{
+    position: relative;
+}
+
+.c-subtotal {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 160;
+        border: #d06500;
+        padding: 10px;
+        background-color: #9f540e;
+        border-radius: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+}
+
+.c-total{
+    padding: 10px;
+    width: 5cm;
+    background-color: rgb(83, 42, 9);
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 700;
+    margin: 20px 10px;
+}
+
+.summa{
+    text-align: center;
+}
+
+button.keranja {
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 0;
+    background: #ff7b00;
+    color: #fff;
+    font-weight: 700;
+    font-size:12pt;
+}
+
+button.keranja:hover{
+    transition: 0.3s;
+    color: white;
+    background-color: #954800;
+}

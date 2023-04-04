@@ -109,7 +109,17 @@ var keranja = {
       },
 
       checkout : () => {
-        console.log(JSON.stringify(keranja.items))
+        keranja.items = localStorage.getItem("keranja");
+        let empty = true;
+        for (let key in keranja.items) {
+          if (keranja.items.hasOwnProperty(key)) {empty = false; break;}
+        }      
+        if (empty) {
+          alert('Cart is empty!')
+        }
+        else {
+          window.location.href = "checkout.html";
+        }
       }
 }
 
